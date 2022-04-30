@@ -1,0 +1,131 @@
+/*
+Author: Fahmida Ahmed;
+Theme: Food Order Website Admin;
+Version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+
+}    
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+} 
+
+table tr td{
+    padding: 1%;
+    text-align: left;
+} 
+
+.btn-primary{
+    background-color: navy;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: rgb(53, 53, 221);
+}
+
+.btn-secondary{
+    background-color: navy;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(53, 53, 221);
+}
+
+.btn-danger{
+    background-color: rgb(109, 18, 2);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: rgb(209, 34, 34);
+}
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid gray;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.menu ul li a:hover{
+    color: darkorchid;
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color: rgb(200, 255, 246);
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 12%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color: rgb(77, 174, 212);
+    color: white;
+}
+.login{
+    border: 1px solid grey;
+    width: 30%; 
+    margin: 10% auto;
+    padding: 2%;
+}
